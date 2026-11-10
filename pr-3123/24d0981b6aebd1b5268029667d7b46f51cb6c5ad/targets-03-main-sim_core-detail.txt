@@ -1,0 +1,10 @@
+(Worktree: picorv32 main checkout)
+Target · sim_core
+ Core: booley::picorv32:0 (/workspaces/booley-prj-picorv32/cores/picorv32_sim.core)
+ Flows: sim
+ Filesets: rtl, tb_main, verilator_main, firmware
+ Constraints: none
+ Tests:
+   main
+   axi
+↑↓ PgUp/PgDn scroll · ←→ Sessions / Jobs / Targets · esc back

@@ -1,0 +1,13 @@
+$ booley targets   (in /workspaces/picorv32; image 24d0981; header row + 3 more cores, top lines scrolled in the DOM at first read, sim_dhry confirmed by second run)
+  TARGET       FLOW    EDA TOOL    TOP                DOCTOR
+booley::picorv32-dhry:0  (.booley/cores/picorv32_dhry.core)
+  sim_dhry     sim     verilator   testbench
+booley::picorv32-impl:0  (.booley/cores/picorv32_impl.core)
+  fpga_core    fpga    vivado      picorv32_axi
+  lint_core    lint    verilator   picorv32_axi       ✓ lint
+  synth_core   synth   yosys       picorv32           ✓ synth
+booley::picorv32:0  (.booley/cores/picorv32_sim.core)
+  sim_core     sim     verilator   picorv32_wrapper   ✓ sim
+  sim_wb       sim     verilator   picorv32_wrapper
+$ git worktree list
+/workspaces/picorv32 a473fc8 [main]

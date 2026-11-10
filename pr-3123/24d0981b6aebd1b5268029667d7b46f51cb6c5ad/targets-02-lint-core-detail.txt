@@ -1,0 +1,8 @@
+Target · lint_core
+ Core: booley::picorv32-impl:0 (/workspaces/booley-prj-picorv32/cores/picorv32_impl.core)
+ Flows: lint
+ Filesets: rtl
+ Constraints: none
+ Tests:
+   only Simulation Targets have tests
+↑↓ PgUp/PgDn scroll · ←→ Sessions / Jobs / Targets · esc back

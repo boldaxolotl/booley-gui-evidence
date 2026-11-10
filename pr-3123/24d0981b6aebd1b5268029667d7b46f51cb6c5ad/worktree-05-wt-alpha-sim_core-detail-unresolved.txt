@@ -1,0 +1,9 @@
+(Worktree: wt-alpha; Targets list identical to main's 6 rows)
+Target · sim_core
+ Core: booley::picorv32:0 (/workspaces/booley-prj-picorv32/cores/picorv32_sim.core)
+ Flows: sim
+ Filesets: rtl, tb_main, verilator_main, firmware
+ Constraints: unavailable
+ Tests: unavailable
+ Inputs unavailable: core projections need a refresh (any Booley Flow run in this worktree refreshes them): missing .booley-projected-picorv32_dhry.core, missing ... stale booley-isolated-picorv32_sim.core
+↑↓ PgUp/PgDn scroll · ←→ Sessions / Jobs / Targets · esc back

@@ -1,0 +1,6 @@
+ Sessions  Jobs  Targets │ Worktree: wt-none │ Help
+Targets · wt-none
+No Targets in wt-none (/home/agent/wt-none).
+ Target  Core  Flows
+↑↓ move · ←→ Sessions / Jobs / Targets · ↑ worktree
+(oracle: git worktree list -> /home/agent/wt-none a473fc8 (detached HEAD); *.core files deleted there)

@@ -1,0 +1,12 @@
+ Sessions  Jobs  Targets │ Worktree: wt-empty │ Help
+Targets · wt-empty
+ Target            Core             Flows
+ hx8kdemo#sim      ::hx8kdemo:0     sim
+ hx8kdemo#synth    ::hx8kdemo:0     —
+ icebreaker#sim    ::icebreaker:0   sim
+ icebreaker#synth  ::icebreaker:0   —
+ lint              ::picorv32:0-r1  lint, sim
+ test              ::picorv32:0-r1  sim
+ test_ez           ::picorv32:0-r1  sim
+ test_wb           ::picorv32:0-r1  sim
+↑↓ move · ⏎ open · ←→ Sessions / Jobs / Targets · ↑ worktree

@@ -1,0 +1,8 @@
+ Sessions  Jobs  Targets │ Worktree: picorv32 │ Help
+Worktrees
+ Worktree
+ wt-alpha · S1 Goal 0/1
+ wt-empty
+ picorv32 · main checkout
+↑↓ move · ⏎ open · ←→ Sessions / Jobs / Targets · esc back
+(oracle: git worktree list -> /workspaces/picorv32 [main], /home/agent/wt-alpha, /home/agent/wt-empty; S1 = scripted MCP goal_enter session in wt-alpha; booley_status interactive session also connected)

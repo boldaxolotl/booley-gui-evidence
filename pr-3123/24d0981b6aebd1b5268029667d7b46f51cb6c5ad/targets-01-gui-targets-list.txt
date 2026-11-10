@@ -1,0 +1,10 @@
+ Sessions  Jobs  Targets │ Worktree: picorv32 │ Help
+Targets · picorv32
+ Target      Core                     Flows
+ sim_dhry    booley::picorv32-dhry:0  sim
+ fpga_core   booley::picorv32-impl:0  fpga
+ lint_core   booley::picorv32-impl:0  lint
+ synth_core  booley::picorv32-impl:0  synth
+ sim_core    booley::picorv32:0       sim
+ sim_wb      booley::picorv32:0       sim
+↑↓ move · ⏎ open · ←→ Sessions / Jobs / Targets · ↑ worktree
