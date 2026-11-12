@@ -1,0 +1,1 @@
+cd /workspaces/picorv32 && booley flow lint --target lint_core --dry-run

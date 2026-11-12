@@ -1,0 +1,2 @@
+booley flow lint --help: options --target, --diagnostic, --dry-run, --timeout (Common); --scope (Lint options); Output group: --report-dir, -q/--quiet; -C/--project present in help only (not offered by the form).
+booley flow sim --help: --mode {simulate,elab-only,elab-only-standalone}

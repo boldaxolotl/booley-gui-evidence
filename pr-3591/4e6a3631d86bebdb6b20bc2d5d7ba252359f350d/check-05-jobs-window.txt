@@ -1,0 +1,1 @@
+/workspaces/picorv32/.booley/.interactive_logs/standalone/lint-20261112T085632Z-1-1f1452ba/request.json: {"worktree":"/workspaces/picorv32","kind":"flow","name":"lint","argv":["--target","lint_core","--dry-run"]}
