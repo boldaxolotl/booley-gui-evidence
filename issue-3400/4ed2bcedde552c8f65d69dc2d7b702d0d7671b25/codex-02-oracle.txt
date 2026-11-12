@@ -1,0 +1,8 @@
+Dashboard row: S2 | Interactive | booley/s2 | .../worktrees/s2 ; Last Booley call: booley_status
+Work dir: /workspaces/booley-prj-picorv32/worktrees/s2
+Terminal tab title: S2
+git worktree list:
+/workspaces/booley-prj-picorv32                      acb8faa [qa/4ed2bce]
+/workspaces/booley-prj-picorv32/worktrees/s2/.booley acb8faa [booley-worktree/s2]
+/workspaces/picorv32                         a473fc8 [main]
+/workspaces/booley-prj-picorv32/worktrees/s2 a473fc8 [booley/s2]

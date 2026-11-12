@@ -1,0 +1,12 @@
+Job record (find /workspaces/booley-prj-picorv32 -path '*/.runtime/jobs/*.json'):
+{"run_id":"sim-20261112T114705Z-1-613d1184","endpoint":"sim","status":"done","exit_code":0,"owner":"mcp-http:developer:codespaces-5a7dea:8814|pid:pid:[4026532225]:3432:75958","work_dir":"/workspaces/booley-prj-picorv32/worktrees/s2"}
+ps -o pid,args -p 3432  ->  3432 S2
+readlink /proc/3432/cwd -> /workspaces/booley-prj-picorv32/worktrees/s2
+Marker QA3400_WORKTREE_RTL found in (grep -rl under .interactive_logs): both build Vpicorv32_wrapper binaries/snapshots and 4 run logs:
+ sim/1/targets/sim_core/campaign/work-items/0001-*/attempts/*/evidence/0001-run.log
+ sim/1/targets/sim_core/campaign/work-items/0001-*/attempts/*/execution-evidence/run.log
+ sim/1/targets/sim_core/campaign/work-items/0002-*/attempts/*/evidence/0001-run.log
+ sim/1/targets/sim_core/campaign/work-items/0002-*/attempts/*/execution-evidence/run.log
+Main checkout: grep -c QA3400 /workspaces/picorv32/picorv32.v = 0 ; git -C /workspaces/picorv32 status --short | wc -l = 0
+Worktree: grep -n QA3400 .../worktrees/s2/picorv32.v -> 2167 (inside module picorv32, before its endmodule)
+Tool result: sim passed for sim_core, exit code 0 (main and axi tests).

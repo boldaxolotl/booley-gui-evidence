@@ -1,0 +1,4 @@
+S2 Codex transcript (rollout jsonl) McpToolCall for the sim call:
+{"type":"McpToolCall","server":"booley","tool":"sim","arguments":{"target":"sim_core"},"status":"completed"}
+Codex exec input: const r = await tools.mcp__booley__sim({target:"sim_core"});
+=> work_dir absent.
