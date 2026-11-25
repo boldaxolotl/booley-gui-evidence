@@ -1,0 +1,4 @@
+$ git rev-parse --short=7 HEAD   -> a473fc8
+store_review_run wrote /workspaces/picorv32/.booley/reviews/a473fc8fca393771d83b0ffcf0b14db3393339d8/20261125T080000Z.json (+ .md)
+$ grep -c reviewed-commits .booley/booley.toml (after step 5) -> 0
+$ booley --version -> booley 0.5.1 (8ab0088, 2026-11-25)
